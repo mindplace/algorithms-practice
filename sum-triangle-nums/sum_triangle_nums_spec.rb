@@ -20,4 +20,8 @@ describe "Sum triangle numbers" do
   it "returns 4 when given 2" do
     expect(sum_triangle_nums(2)).to eq(4)
   end
+
+  it "does some other stuff" do
+    expect(true).to be(false)
+  end
 end
